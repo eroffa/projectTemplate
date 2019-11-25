@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Sergey Erofeev"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/eroffa/projectTemplate",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "picturefill": "^3.0.3",
+    "normalize-css": "^8.0.1",
+    "animate.css": "^3.7.2"
+  }
+}

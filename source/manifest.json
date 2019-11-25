@@ -1,0 +1,45 @@
+{
+	"name": "Портфолио",
+	"short_name": "Портфолио",
+	"description": "Портфолио работ",
+	"lang": "ru",
+	"background_color": "#fff",
+	"theme_color": "#fff",
+	"dir": "ltr",
+	"start_url": "/",
+	"scope" : "/",
+	"display" : "browser",
+	"orientation": "any",
+	"icons": [
+		{
+		"src": "favicons/16x16.png",
+		"type": "image/png",
+		"sizes": "16x16"
+		},
+		{
+		"src": "favicons/32x32.png",
+		"type": "image/png",
+		"sizes": "32x32"
+		},
+		{
+		"src": "favicons/180x180.png",
+		"type": "image/png",
+		"sizes": "180x180"
+		},
+		{
+		"src": "favicons/192x192.png",
+		"type": "image/png",
+		"sizes": "192x192"
+		},
+		{
+		"src": "favicons/256x256.png",
+		"type": "image/png",
+		"sizes": "256x256"
+		},
+		{
+		"src": "favicons/favicon.svg",
+		"type": "image/svg+xml",
+		"sizes": "any"
+		}
+	]
+}

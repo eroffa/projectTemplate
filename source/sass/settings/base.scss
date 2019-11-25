@@ -1,0 +1,59 @@
+/**
+*	Основные стили
+*
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: content-box
+}
+
+body {
+  position: relative;
+
+  min-width: $breakpoint-mobile;
+
+  font-family: $ff;
+  font-size: $fz;
+  font-weight: normal;
+  line-height: $lh;
+  color: black;
+
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+
+  background-color: rgba(black, 0.5);
+}

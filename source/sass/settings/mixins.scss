@@ -1,0 +1,52 @@
+/**
+*	Миксины
+*
+*/
+
+@mixin font-face($font-family, $url, $weight: normal, $style: normal) {
+  @font-face {
+    font-family: "#{$font-family}";
+    font-weight: $weight;
+    font-style: $style;
+    font-display: swap;
+    src: url("#{$url}.woff2") format("woff2"),
+    url("#{$url}.woff") format("woff");
+  }
+}
+
+@mixin reset-ul() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content;}
+  &:-moz-placeholder {@content;}
+  &::-moz-placeholder {@content;}
+  &:-ms-input-placeholder {@content;}
+  &::-ms-input-placeholder {@content;}
+  &::placeholder {@content;}
+}
+
+@mixin sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+@mixin sr-not {
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: none;
+  clip: auto;
+  overflow: visible;
+}

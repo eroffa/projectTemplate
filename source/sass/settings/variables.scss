@@ -1,0 +1,32 @@
+/**
+*	Переменные
+*
+*/
+
+/* Цвета */
+$color: black;
+
+/* Размер шрифта */
+$ff: "Open Sans", Arial, sans-serif;
+$fz: 16px;
+$lh: 1.2;
+
+/* Размер контейнера */
+$width-mobile: 270px; // 280
+$width-tablet: 688px; // 640
+$width-desktop: 1320px; // 960
+
+/* Breakpoint */
+$breakpoint-mobile: 320px; //
+$breakpoint-tablet: 768px; //
+$breakpoint-desktop: 1440px; // 1080
+$breakpoint-mobile-only: $breakpoint-tablet - 1; // только для телефонов
+
+// Отступы
+$indent-mobile: 20px / $breakpoint-mobile * 100%;
+$indent-tablet: 64px / $breakpoint-tablet * 100%;
+$indent-desktop: 60px / $breakpoint-desktop * 100%;
+
+/* Ретина */
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;

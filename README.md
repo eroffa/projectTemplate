@@ -1,1 +1,8 @@
-# projectTemplate
+# Стартовый шаблон для начала верстки
+
+```sh
+1. $ bower i
+2. $ npm i
+
+3. $ npm start
+```

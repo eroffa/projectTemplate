@@ -1,0 +1,37 @@
+/**
+*	Центровщик
+*
+*/
+
+.container {
+  box-sizing: content-box;
+  width: $width-mobile;
+  margin: 0 auto;
+  padding: 0 #{$indent-mobile};
+
+  @media screen and (min-width: $breakpoint-tablet) {
+    width: $width-tablet;
+    padding: 0 #{$indent-tablet};
+  }
+
+  @media screen and (min-width: $breakpoint-desktop) {
+    width: $width-desktop;
+    padding: 0 #{$indent-desktop};
+  }
+}
+
+.container-fluid {
+  box-sizing: content-box;
+  width: auto;
+  padding: 0 #{$indent-mobile};
+
+  @media screen and (min-width: $breakpoint-tablet) {
+    padding: 0 #{$indent-tablet};
+  }
+
+  @media screen and (min-width: $breakpoint-desktop) {
+    width: $width-desktop;
+    margin: 0 auto;
+    padding: 0 #{$indent-desktop};
+  }
+}

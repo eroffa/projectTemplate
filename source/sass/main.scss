@@ -1,0 +1,17 @@
+/**
+*	Сборщик стилей
+*
+*/
+
+/* Настройки */
+@import "settings/variables";
+@import "settings/mixins";
+@import "settings/fonts";
+@import "settings/container";
+
+/* Основные стили */
+@import "../libs/normalize-css/normalize.css";
+@import "settings/base";
+
+/* Секции */
+// @import "blocks/name";
